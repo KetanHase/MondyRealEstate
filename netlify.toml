@@ -1,9 +1,11 @@
 [build]
-  publish = "build"
+  # Your build command and output folder
   command = "npm run build"
+  publish = "build"
 
+# Catch-all rule: serve index.html for every route
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/about"
   status = 200
   force = true
