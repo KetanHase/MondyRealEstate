@@ -1,7 +1,10 @@
 import React from 'react';
 import '../Css/index.css';
 
+
+
 const Navbar = () => {
+  
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
@@ -31,7 +34,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="about.html">
+          <a className="nav-link" href="/about">
             About
           </a>
         </li>
@@ -53,29 +56,29 @@ const Navbar = () => {
           </a>
           <ul className="dropdown-menu" aria-labelledby="pagesDropdown">
             <li>
-              <a className="dropdown-item item" href="about.html">
+              <a className="dropdown-item item" href="/about">
                 About Us
               </a>
             </li>
             <li>
-              <a className="dropdown-item item" href="Searchresult.html">
+              <a className="dropdown-item item" href="/searchresult">
                 Search Results
               </a>
             </li>
             <li>
-              <a className="dropdown-item item" href="Single-property.html">
+              <a className="dropdown-item item" href="/singleproperty">
                 Property
               </a>
             </li>
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="news.html">
+          <a className="nav-link" href="/news">
             News
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="contact.html">
+          <a className="nav-link" href="/contact">
             Contact
           </a>
         </li>
