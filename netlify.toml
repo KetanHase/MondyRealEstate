@@ -5,7 +5,7 @@
 
 # Catch-all rule: serve index.html for every route
 [[redirects]]
-  from = "/"
-  to = "/about"
+  from = "/*"
+  to = "/index.html"
   status = 200
   force = true
